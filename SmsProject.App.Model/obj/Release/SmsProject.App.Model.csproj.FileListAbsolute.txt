@@ -1,0 +1,14 @@
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\SmsProject.App.Model.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\SmsProject.App.Model.pdb
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\FluentNHibernate.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\Newtonsoft.Json.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\NHibernate.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\SmsProject.App.Data.DAL.Interface.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\SmsProject.App.Data.DAL.Interface.pdb
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\FluentNHibernate.pdb
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\FluentNHibernate.xml
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\Newtonsoft.Json.xml
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\bin\Release\NHibernate.xml
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\obj\Release\SmsProject.App.Model.csprojResolveAssemblyReference.cache
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\obj\Release\SmsProject.App.Model.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Model\obj\Release\SmsProject.App.Model.pdb

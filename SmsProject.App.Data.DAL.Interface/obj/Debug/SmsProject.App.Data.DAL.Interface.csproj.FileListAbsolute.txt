@@ -1,0 +1,4 @@
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL.Interface\bin\Debug\SmsProject.App.Data.DAL.Interface.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL.Interface\bin\Debug\SmsProject.App.Data.DAL.Interface.pdb
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL.Interface\obj\Debug\SmsProject.App.Data.DAL.Interface.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL.Interface\obj\Debug\SmsProject.App.Data.DAL.Interface.pdb

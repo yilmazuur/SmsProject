@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmsProject.App.API.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SmsProject.App.API.Core.CountriesController">
+            <summary>
+            CountriesController
+            </summary>
+        </member>
+        <member name="M:SmsProject.App.API.Core.CountriesController.#ctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
+        <member name="M:SmsProject.App.API.Core.CountriesController.Dispose(System.Boolean)">
+            <summary>
+            Custom dispose operations if necessary
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:SmsProject.App.API.Core.CountriesController.Get">
+            <summary>
+            Get countries
+            </summary>
+            <returns>array of country</returns>
+        </member>
+        <member name="T:SmsProject.App.API.Core.Controllers.SmsController">
+            <summary>
+            SmsController
+            </summary>
+        </member>
+        <member name="M:SmsProject.App.API.Core.Controllers.SmsController.#ctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
+        <member name="M:SmsProject.App.API.Core.Controllers.SmsController.Dispose(System.Boolean)">
+            <summary>
+            Custom dispose operations if necessary
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:SmsProject.App.API.Core.Controllers.SmsController.SendSms(System.String,System.String,System.String)">
+            <summary>
+            Send Sms
+            </summary>
+            <param name="from">the sender of the message</param>
+            <param name="to">the receiver of the message</param>
+            <param name="text">the text which should be sent</param>
+            <returns>state: enum (Success, Failed)</returns>
+        </member>
+        <member name="M:SmsProject.App.API.Core.Controllers.SmsController.GetSentSms(System.DateTime,System.DateTime,System.Int32,System.Int32)">
+            <summary>
+            List sent sms
+            </summary>
+            <param name="dateTimeFrom">format: "yyyy-MM-ddTHH:mm:ss", UTC</param>
+            <param name="dateTimeTo">format: "yyyy-MM-ddTHH:mm:ss", UTC</param>
+            <param name="skip">skip n records</param>
+            <param name="take">take n records</param>
+            <returns></returns>
+        </member>
+        <member name="T:SmsProject.App.API.Core.StatisticsController">
+            <summary>
+            Statistics Controller
+            </summary>
+        </member>
+        <member name="M:SmsProject.App.API.Core.StatisticsController.#ctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
+        <member name="M:SmsProject.App.API.Core.StatisticsController.Dispose(System.Boolean)">
+            <summary>
+            Custom dispose operations if necessary
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:SmsProject.App.API.Core.StatisticsController.GetStatistics(System.DateTime,System.DateTime,System.String)">
+            <summary>
+            Get Sms Price Statistics
+            </summary>
+            <param name="dateFrom">format: "yyyy-MM-dd"</param>
+            <param name="dateTo">format: "yyyy-MM-dd"</param>
+            <param name="mccList">list of mobile country codes, e.g. "262,232"</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

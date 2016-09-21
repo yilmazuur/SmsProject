@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D35194B-AC11-441F-BE73-4DA491A7E3DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SmsProject.App.Operation</RootNamespace>
+    <AssemblyName>SmsProject.App.Operation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=4.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NHibernate.4.0.3.4000\lib\net40\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\OperationBase.cs" />
+    <Compile Include="CountryOperations.cs" />
+    <Compile Include="ErrorOperations.cs" />
+    <Compile Include="Log\ErrorAppender.cs" />
+    <Compile Include="Log\ServiceCallAppender.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceCallOperations.cs" />
+    <Compile Include="SmsOperations.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmsProject.App.Common.Logging\SmsProject.App.Common.Logging.csproj">
+      <Project>{b114c817-5e17-41e0-bf0d-d07d2f348321}</Project>
+      <Name>SmsProject.App.Common.Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmsProject.App.Common\SmsProject.App.Common.csproj">
+      <Project>{0f591490-7644-460c-8011-f58f997f5f8e}</Project>
+      <Name>SmsProject.App.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmsProject.App.Data.DAL.Interface\SmsProject.App.Data.DAL.Interface.csproj">
+      <Project>{3b051b41-3d91-45fa-9e6b-6ab93cf4f2c3}</Project>
+      <Name>SmsProject.App.Data.DAL.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmsProject.App.Data.DAL\SmsProject.App.Data.DAL.csproj">
+      <Project>{722f3456-60e9-4ab2-be9a-caf74cfd4fa4}</Project>
+      <Name>SmsProject.App.Data.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmsProject.App.Data.Persistence\SmsProject.App.Data.Persistence.csproj">
+      <Project>{9df2b0fd-2697-47c1-b095-fa22d3906201}</Project>
+      <Name>SmsProject.App.Data.Persistence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmsProject.App.Model\SmsProject.App.Model.csproj">
+      <Project>{c2120943-a3e0-4f36-ade7-81fc4ecca7c2}</Project>
+      <Name>SmsProject.App.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmsProject.App.Operation.Interface\SmsProject.App.Operation.Interface.csproj">
+      <Project>{6b8c7975-bb0a-45e5-b271-d3ec5fd172b9}</Project>
+      <Name>SmsProject.App.Operation.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmsProject.App.SmsProvider\SmsProject.App.SmsProvider.csproj">
+      <Project>{a1c83449-0fc9-4587-99cc-55bc63f1ad91}</Project>
+      <Name>SmsProject.App.SmsProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

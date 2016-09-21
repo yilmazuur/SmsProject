@@ -1,0 +1,6 @@
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Logging\bin\Debug\SmsProject.App.Common.Logging.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Logging\bin\Debug\SmsProject.App.Common.Logging.pdb
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Logging\bin\Debug\log4net.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Logging\bin\Debug\log4net.xml
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Logging\obj\Debug\SmsProject.App.Common.Logging.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Logging\obj\Debug\SmsProject.App.Common.Logging.pdb

@@ -1,0 +1,12 @@
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\bin\Debug\SmsProject.App.Data.DAL.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\bin\Debug\SmsProject.App.Data.DAL.pdb
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\bin\Debug\FluentNHibernate.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\bin\Debug\NHibernate.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\bin\Debug\SmsProject.App.Data.DAL.Interface.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\bin\Debug\SmsProject.App.Data.DAL.Interface.pdb
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\bin\Debug\FluentNHibernate.pdb
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\bin\Debug\FluentNHibernate.xml
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\bin\Debug\NHibernate.xml
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\obj\Debug\SmsProject.App.Data.DAL.csprojResolveAssemblyReference.cache
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\obj\Debug\SmsProject.App.Data.DAL.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Data.DAL\obj\Debug\SmsProject.App.Data.DAL.pdb

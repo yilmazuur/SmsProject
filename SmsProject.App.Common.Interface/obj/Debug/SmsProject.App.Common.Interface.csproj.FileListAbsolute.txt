@@ -1,0 +1,5 @@
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Interface\bin\Debug\SmsProject.App.Common.Interface.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Interface\bin\Debug\SmsProject.App.Common.Interface.pdb
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Interface\obj\Debug\SmsProject.App.Common.Interface.csprojResolveAssemblyReference.cache
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Interface\obj\Debug\SmsProject.App.Common.Interface.dll
+C:\Users\ugur.yilmaz\Desktop\Mitto\SmsProject\SmsProject.App.Common.Interface\obj\Debug\SmsProject.App.Common.Interface.pdb
