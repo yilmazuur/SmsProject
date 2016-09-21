@@ -38,7 +38,8 @@
 **3. Deployment**
 
 I created an application pool and a site in IIS 7.5 in my local computer. Additionally, I created a publish profile for SmsProject.App.API. Deployments are two clicks away.
-Better approach: We could prefer jenkins(or other tools) for automated and scheduled deployments. On the other hand, gitflow would be a good approach for code repo, and githubflow would be better. Githubflow is vital for continuous delivery.
+
+**Better approach:** We could prefer jenkins(or other tools) for automated and scheduled deployments. On the other hand, gitflow would be a good approach for code repo, and githubflow would be better. Githubflow is vital for continuous delivery.
 
 **4. Notes**
 
