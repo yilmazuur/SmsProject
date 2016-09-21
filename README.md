@@ -22,15 +22,25 @@
 **2. Layers**
 
 **SmsProject.App.API:** contains configurations in startup.cs and swagger for easy documentation.
+
 **SmsProject.App.API.Common:** contains extensibilities like global error handler and interceptor.
+
 **SmsProject.App.API.Core:** contains controllers, used TPL for scalability and non-blocking codes.
+
 **SmsProject.App.Common:** contains CallerInfo which stays in OwinContext and can be reached directly in all layers. CallerInfo is set in message handler(base).
+
 **SmsProject.App.Common.Logging:** Generic logging dll that I coded a while ago.
+
 **SmsProject.App.Data.DAL:** Generic repository and unit of work definitions are in here. DALExtensions.cs is to use “dynamic”.
+
 **SmsProject.App.Data.Persistence:** PersistenceFactory required by NHibernate.
+
 **SmsProject.App.Model:** Models and mappings are in here
+
 **SmsProject.App.Operation:** contains business logic.
+
 **SmsProject.App.Operation.UnitTest:** contains unit tests of operation layer and business logic.
+
 **SmsProject.App.SmsProvider:** is to send SMS in reality. Right now, it is a dummy assembly. When somebody wants to code “actual send”, other assemblies won’t be affected.
 
 **Note:** Developers can extend operation and controller(API.Core) layer as they wish. The other parts of architecture won’t grow horizontally and functionalities (like interceptorsetc.) will work for new services, too. Also, basic crud operations will be ready for additional entities due to generic repository pattern. To serve microservice architecture and continous delivery methodology, developers can create new assemblies according to business needs and put these assemblies between SmsProject.App.API and SmsProject.App.Operation. Or they can prefer to extend SmsProject.App.API.Core.
